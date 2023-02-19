@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&family=Gloock&display=swap');
+
+body{
+  background-color: #91634C;
+}
+
+
+#landing{
+  width: 100%;
+  
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#logo{
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+#logo-title{
+  font-family: 'Courier Prime', serif;
+  font-size: 28px;
+}
+
+#bt-land{
+  margin-bottom: 150px;
+  margin-top: 100px;
+  width: 200px;
+  /*background-color: #DD711B;*/
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Poppins', Sans-Serif;
+  
+}
+
+#dash-container{
+  
+}
