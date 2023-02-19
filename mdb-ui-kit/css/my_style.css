@@ -61,7 +61,7 @@ a:hover{
 
 }
 
-#perfil, hr, #search-div, #label, #cat-container, #bt-agendar{
+#perfil, hr, #search-div, #label, #cat-container, #bt-agendar, #datepicker{
   max-width: 300px;
 }
 
