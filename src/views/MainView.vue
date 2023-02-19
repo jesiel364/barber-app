@@ -31,7 +31,7 @@ let user_name= 'Jesiel'
         <img  class="img-fluid" src="/src/assets/user.png"/></div></a>
         <div id='user-name'>
         <p >
-          Olá, {{user_name}}
+          Olá, <strong>{{user_name}}</strong>
         </p></div>
         
     </div>

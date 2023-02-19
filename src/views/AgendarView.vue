@@ -1,6 +1,5 @@
 <script setup>
-flatpickr("input[type=datetime-local]", {enableTime: false,
-    dateFormat: "Y-m-d H:i",});
+flatpickr("input[type=datetime]", {});
 </script>
 
 <template>
