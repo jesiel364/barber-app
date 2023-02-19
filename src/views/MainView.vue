@@ -43,36 +43,20 @@ let user_name= 'Jesiel'
     
       <div class=' ' id='category'>
       
-        <!-- <div class='item' v-for="item in servicos" :key="item.nome">
-        <img  class='img-category' src={{ item.pic}}>
+        <div class='item' v-for="item in servicos" :key="item.nome">
+        <img  class='img-category' :src='item.pic'>
         <p class=''>{{ item.nome }}</p>
-      </div> -->
-        <div class='item' >
-        <img  class='img-category' src='/src/assets/social.png'>
-        <p class=''>Corte Social</p>
       </div>
+        
       <!-- <div class='m-3'></div> -->
 <br>
 
       
-      <div class='item'>
-        <img  class='img-category' src='/src/assets/degrade.png'>
-        <p class=''>Corte Degradê</p>
-      </div
+      
 
-      ></div>
+      </div>
 
-      <div class=' ' id='category-2'>
-      <div class='item'>
-        <img  class='img-category img-fluid' src='/src/assets/raspado.png'>
-        <p class=''>Raspado</p>
-      </div>
-      <div class='item'>
-        <img  class='img-category img-fluid' src='/src/assets/descolorir.png'>
-        <p class=''>Descolorir</p>
-      </div>
-    
-    </div>
+   
 
     </div>
 

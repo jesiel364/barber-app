@@ -3,7 +3,7 @@
 
 body{
   background-color: #282828;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 nav{
@@ -110,6 +110,7 @@ hr{
 #category{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   /* background-color: bisque; */
   /* margin-left: 0;
   margin-right: auto;   */
