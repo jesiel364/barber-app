@@ -13,7 +13,7 @@ import DashBoard from './components/DashBoard.vue'
     <div class="wrapper">
          <nav class='m-3'>
         <RouterLink  to="/">Inicio</RouterLink>
-        <RouterLink class='m-2' to="/dashboard">Serviços</RouterLink>
+        <RouterLink class='m-2' to="/servicos">Serviços</RouterLink>
         <RouterLink to="/agendar">Agendamento</RouterLink>
       </nav>
    
