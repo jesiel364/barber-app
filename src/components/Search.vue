@@ -8,7 +8,7 @@
         <input type="search" id="form1" class="form-control" placeholder="Search" />
         <!-- <label class="form-label" for="form1">Search</label> -->
       </div>
-      <button type="button" class="btn ">
+      <button type="button" class="btn btn-dark">
         <i class="fas fa-search"></i>
       </button>
     </div></div>

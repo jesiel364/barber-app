@@ -4,7 +4,7 @@ import Perfil from '../components/Perfil.vue'
 </script>
 
 <template>
-  <div id='main' class=''>
+  <div id='main' class='container '>
     
     <div class='p-2'></div>
     <Search />
@@ -13,7 +13,7 @@ import Perfil from '../components/Perfil.vue'
         <img  class="img-fluid" src="/src/assets/user.png"/></div>
         <div id='user-name'>
         <p>
-          Hi, James
+          Olá, Thiago
         </p></div>
         
     </div>
@@ -42,7 +42,7 @@ import Perfil from '../components/Perfil.vue'
       <div class=' ' id='category-2'>
       <div class='item'>
         <img  class='img-category img-fluid' src='/src/assets/raspado.png'>
-        <p class=''>Corte Raspado</p>
+        <p class=''>Raspado</p>
       </div>
       <div class='item'>
         <img  class='img-category img-fluid' src='/src/assets/descolorir.png'>
@@ -53,8 +53,14 @@ import Perfil from '../components/Perfil.vue'
 
     </div>
 
-    <div class="mx-auto">
-    <RouterLink  to="/agendar"> <button id="bt-agendar" type="button" class="btn btn-warning btn-rounded p-3">Fazer agendamento</button></RouterLink>
-</div></div>
+    <hr class='mx-auto mt-3' >
+
+    <div id="bt-agendar" class="m-3">
+      <RouterLink  to="/agendar"> <button  type="button" class="btn btn-warning btn-rounded p-3">Fazer agendamento</button></RouterLink>
+    </div>
+
+
+
+<div class='p-3'></div></div>
 </template>
 

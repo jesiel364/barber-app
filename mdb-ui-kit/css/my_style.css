@@ -58,8 +58,8 @@ a:hover{
 
 }
 
-#perfil, hr, #search-div, #label, #cat-container{
-  max-width: 400px;
+#perfil, hr, #search-div, #label, #cat-container, #bt-agendar{
+  max-width: 300px;
 }
 
 #perfil{
@@ -145,6 +145,8 @@ hr{
 }
 
 #bt-agendar{
-  width: 200px;
-  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* background-color: blue; */
 }
