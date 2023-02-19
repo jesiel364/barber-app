@@ -5,13 +5,14 @@ import DashBoard from './components/DashBoard.vue'
 
 <template>
  
-  <header>
+  <header >
   
 
     <div class="wrapper">
-         <nav>
-        <RouterLink to="/">Landing</RouterLink>
-        <RouterLink to="/dashboard">Dashboard</RouterLink>
+         <nav class='m-3'>
+        <RouterLink  to="/">Inicio</RouterLink>
+        <RouterLink class='m-2' to="/dashboard">Serviços</RouterLink>
+        <RouterLink to="/agendar">Agendamento</RouterLink>
       </nav>
    
   </div>

@@ -2,12 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&family=Gloock&display=swap');
 
 body{
-  background-color: #91634C;
+  background-color: #282828;
+  font-family: 'Poppins', sans-serif;
 }
 
 
 #landing{
-  width: 100%;
+  /* width: 100%; */
   
   display: flex;
   flex-direction: column;
@@ -21,13 +22,13 @@ body{
 }
 
 #logo-title{
-  font-family: 'Courier Prime', serif;
+  font-family: 'Gloock', serif;
   font-size: 28px;
 }
 
 #bt-land{
-  margin-bottom: 150px;
-  margin-top: 100px;
+  /* margin-bottom: 150px;
+  margin-top: 100px; */
   width: 200px;
   /*background-color: #DD711B;*/
   font-size: 18px;
@@ -37,5 +38,113 @@ body{
 }
 
 #dash-container{
+  
+}
+
+#search-div{
+  display: flex;
+}
+
+a{
+  color: white;
+}
+
+a:hover{
+  color: rgb(91, 240, 91);
+}
+
+#main{
+  background-color: #fafafa;
+
+}
+
+#perfil, hr, #search-div, #label, #cat-container{
+  max-width: 400px;
+}
+
+#perfil{
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#user-img{
+  width: 56px;
+  height: 56px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: #282828; */
+}
+
+#user-name{
+  font-family: 'Poppins', sans-serif;
+  font-size: 19px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: #282828; */
+}
+
+hr{
+  color:rgb(216, 216, 216);
+  border-width: 2px;
+
+}
+
+#label{
+  font-size: 20px;
+  font-weight: 600;
+
+}
+
+#cat-container{
+  display: flex;
+  flex-direction: column;
+}
+
+#category{
+  display: flex;
+  flex-direction: row;
+  /* background-color: bisque; */
+  /* margin-left: 0;
+  margin-right: auto;   */
+  justify-content: space-between;
+}
+#category-2{
+  display: flex;
+  flex-direction: row;
+  /* background-color: bisque; */
+  /* margin-left: 0;
+  margin-right: auto;   */
+  justify-content: space-between;
+}
+
+.img-category{
+  border-radius: 50%;
+  width: 112px;
+  height: 112px;
+  display: flex;
+}
+
+.item{
+  /* background-color: aquamarine; */
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+
+
+  
+}
+
+.item p{
+  font-weight: 600;
+  font-size: 16px;
+  margin: auto;
+}
+
+#bt-agendar{
+  width: 200px;
   
 }
