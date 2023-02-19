@@ -22,7 +22,7 @@ let user_name= 'Jesiel'
 </script>
 
 <template>
-  <div id='main' class='container '>
+  <div id='main' class='container'>
     
     <div class='p-2'></div>
     <Search />
@@ -44,19 +44,12 @@ let user_name= 'Jesiel'
       <div class=' ' id='category'>
       
         <div class='item' v-for="item in servicos" :key="item.nome">
-        <img  class='img-category' :src='item.pic'>
+        <a href='#'><img  class='img-category' :src='item.pic'></a>
         <p class=''>{{ item.nome }}</p>
       </div>
         
-      <!-- <div class='m-3'></div> -->
-<br>
-
-      
-      
 
       </div>
-
-   
 
     </div>
 

@@ -6,9 +6,7 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
-nav{
-  font-family: 'Gloock', sans-serif;
-}
+
 
 #landing{
   /* width: 100%; */
@@ -57,12 +55,14 @@ a:hover{
 }
 
 #main{
-  background-color: #fafafa;
+  /* background-color: #282828; */
+  color: #fafafa;
 
 }
 
 #perfil, hr, #search-div, #label, #cat-container, #bt-agendar, #datepicker{
   max-width: 300px;
+  /* background-color: blueviolet; */
 }
 
 #perfil{

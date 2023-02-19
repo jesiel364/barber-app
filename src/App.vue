@@ -27,5 +27,7 @@ import DashBoard from './components/DashBoard.vue'
 <style scoped>
   nav{
   font-family: 'Poppins', sans-serif;
+  /* background-color: #363636; */
+  /* padding: 20px; */
 }
 </style>

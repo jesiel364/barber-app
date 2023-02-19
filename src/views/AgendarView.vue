@@ -20,7 +20,7 @@ flatpickr("input[type=datetime-local]", {enableTime: false,
     </form>
 
     <div class='mx-auto' id='confirmar'>
-        <a href='/confirmacao'><button type="button" class="btn btn-success btn-rounded">Confirmar Agendamento</button></a>
+        <RouterLink to='/confirmacao'><button type="button" class="btn btn-success btn-rounded">Confirmar Agendamento</button></RouterLink>
     </div>
 </template>
 
@@ -28,7 +28,7 @@ flatpickr("input[type=datetime-local]", {enableTime: false,
 h1{
     color: #00c279;
     font-family: 'Gloock', serif;
-   
+   margin-top: 100px;
 }
 
 #info{

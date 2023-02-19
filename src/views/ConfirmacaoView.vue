@@ -1,5 +1,5 @@
 <template>
-    <div class='mx-auto mt-5'>
+    <div id='agendamento' class='mx-auto mt-5'>
         <img class="img-fluid mx-auto m-2" id='logo' src="/src/assets/barber.png"/>
         <p >Seu atendimento foi marcado para o dia <strong>Dia</strong> ás <strong>Horas</strong></p>
         <p><strong>Agradecemos a preferencia!</strong></p>
@@ -27,12 +27,18 @@ div{
     max-width: 300px;
     color: white;
     font-size: 22px;
+ 
 }
 
 #redes{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+img{
+  margin-top: 200px;
 }
 
 
