@@ -1,6 +1,8 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import DashBoard from './components/DashBoard.vue'
+
+
 </script>
 
 <template>
