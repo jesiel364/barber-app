@@ -135,6 +135,14 @@ hr{
   
 }
 
+.img-category :focus{
+  background-color: antiquewhite;
+  /* border-radius: 25%;
+  background-color: hsla(0, 0%, 0%, 0.6); */
+  filter: red(100%);
+
+}
+
 .item p{
   font-weight: 600;
   font-size: 16px;

@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import DashBoard from './components/DashBoard.vue'
+
+
 
 
 </script>
@@ -12,9 +13,10 @@ import DashBoard from './components/DashBoard.vue'
 
     <div class="wrapper">
          <nav class='m-3'>
-        <RouterLink  to="/">Inicio</RouterLink>
-        <RouterLink class='m-2' to="/servicos">Serviços</RouterLink>
-        <RouterLink to="/agendar">Agendamento</RouterLink>
+        <RouterLink class='me-2'  to="/">Inicio</RouterLink>
+        <RouterLink class='me-2' to="/servicos">Serviços</RouterLink>
+        <RouterLink class='me-2' to="/agendar">Agendamento</RouterLink>
+        <RouterLink  to="/login">Login</RouterLink>
       </nav>
    
   </div>
