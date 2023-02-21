@@ -1,5 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import Navbar from '/src/components/Navbar.vue'
 
 
 
@@ -9,28 +10,17 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
  
   <header >
-  
 
-    <div class="wrapper">
-         <nav class='m-3'>
-        <RouterLink class='me-2'  to="/">Inicio</RouterLink>
-        <RouterLink class='me-2' to="/servicos">Serviços</RouterLink>
-        <RouterLink class='me-2' to="/agendar">Agendamento</RouterLink>
-        <RouterLink class='me-2'  to="/login">Login</RouterLink>
-        <RouterLink class='me-2'  to="/cadastro-de-servicos">Cadastro de Serviços</RouterLink>
-      </nav>
-   
-  </div>
+    
+  <Navbar />
   </header>
 
   <RouterView />
   
 </template>
 
-<style scoped>
-  nav{
-  font-family: 'Poppins', sans-serif;
-  /* background-color: #363636; */
-  /* padding: 20px; */
+<style>
+.container{
+  /* width: 100%; */
 }
 </style>
