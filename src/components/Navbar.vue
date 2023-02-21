@@ -53,11 +53,11 @@
     <div class="d-flex align-items-center">
       <!-- Icon -->
       <a class="text-reset me-3" href="#">
-        <i class="fas fa-shopping-cart"></i>
+        <i class="far fa-calendar-check"></i>
       </a>
 
       <!-- Notifications -->
-      <div class="dropdown">
+      <!-- <div class="dropdown">
         <a
           class="text-reset me-3 dropdown-toggle hidden-arrow"
           href="#"
@@ -83,7 +83,7 @@
             <a class="dropdown-item" href="#">Something else here</a>
           </li>
         </ul>
-      </div>
+      </div> -->
       <!-- Avatar -->
       <div class="dropdown">
         <a
@@ -127,7 +127,7 @@
 
 <style scoped>
   nav{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 14px;
   /* background-color: #363636; */
   /* padding: 20px; */

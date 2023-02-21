@@ -47,7 +47,7 @@
           <button style="background-color: #3b5998;" type="button" class="btn text-light mt-3">
             <i class="fab fa-facebook-f"></i> entrar com facebook
           </button>
-          <button style="background-color: #3b5998;" type="button" class="btn bg-light text-dark mt-3 ">
+          <button type="button" class="btn bg-light text-dark mt-3 ">
             <i class="fab fa-google"></i> entrar com google
           </button>
           
