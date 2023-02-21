@@ -6,8 +6,9 @@
 <template>
   <div id="container" class='container'>
 
-    <div class="text-light  p-5">
-    <img class="img-fluid mx-auto" id='logo' src="/src/assets/barber.png" />
+    <div class="text-light p-5">
+      
+    <div class='text-center'><img class="img-fluid mx-auto" id='logo' src="/src/assets/barber.png" /></div>
     <h1 id="logo-title" class="text-center text-light mt-3 ">YDA JEAN - BARBER SHOP</h1>
   <form>  <label id="label" class=' mt-5 mb-2'>Entre na sua conta</label>
     <div class="mx-auto">
@@ -32,31 +33,26 @@
             </span>
           </p>
         </div>
-        <div id="bt" class="field mb-5">
+        
           <p class="control">
-            <RouterLink class="mx-auto m-3 mt-5" to="/servicos"> <button id='btLogin' class="btn btn-success text-center">
+            <RouterLink class="mx-auto mt-5 mb-5" to="/servicos"> <button id='btLogin' class="btn btn-success text-center">
               Entrar
             </button></RouterLink>
           </p>
-        </div>
+        
 
         <!-- Register buttons -->
-        <div class="text-center">
-          <p>ou entre com:</p>
-          <button type="button" class="btn btn-secondary btn-floating mx-1">
-            <i class="fab fa-facebook-f"></i>
+        <div class="text-center mt-3 mb-3">
+          <hr> ou entre com:
+          <button style="background-color: #3b5998;" type="button" class="btn text-light mt-3">
+            <i class="fab fa-facebook-f"></i> entrar com facebook
           </button>
-
-          <button type="button" class="btn btn-secondary btn-floating mx-1">
-            <i class="fab fa-google"></i>
+          <button style="background-color: #3b5998;" type="button" class="btn bg-light text-dark mt-3 ">
+            <i class="fab fa-google"></i> entrar com google
           </button>
+          
 
-          <button type="button" class="btn btn-secondary btn-floating mx-1">
-            <i class="fab fa-twitter"></i>
-          </button>
-
-          <button type="button" class="btn btn-secondary btn-floating mx-1">
-            <i class="fab fa-github"></i></button>
+          
           
         </div>
       
@@ -99,7 +95,7 @@ input {
 
 }
 
-#btLogin{
-  max-width: 300px;
+button{
+  width: 100%;
 }
 </style>

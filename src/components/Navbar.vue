@@ -1,6 +1,6 @@
 <template>
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light text-light bg-dark">
+<nav class="navbar navbar-expand-lg navbar-light text-light bg-dark p-4">
   <!-- Container wrapper -->
   <div class="container-fluid">
     <!-- Toggle button -->
@@ -28,22 +28,22 @@
         />
       </a>
       <!-- Left links -->
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav ">
         <li class="nav-item">
-            <RouterLink class='me-2'  to="/">Inicio</RouterLink>
+            <RouterLink class='me-2'  to="/">INICIO</RouterLink>
         </li>
         <li class="nav-item">
-            <RouterLink class='me-2' to="/servicos">Serviços</RouterLink>
+            <RouterLink class='me-2' to="/servicos">SERVIÇOS</RouterLink>
         </li>
         <li class="nav-item">
-            <RouterLink class='me-2' to="/agendar">Agendamento</RouterLink>
+            <RouterLink class='me-2' to="/agendar">AGENDAMENTO</RouterLink>
         </li>
         <li class="nav-item">
-            <RouterLink class='me-2'  to="/login">Login</RouterLink>
+            <RouterLink class='me-2'  to="/login">LOGIN</RouterLink>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
             <RouterLink class='me-2'  to="/cadastro-de-servicos">Cadastro de Serviços</RouterLink>
-        </li>
+        </li> -->
       </ul>
       <!-- Left links -->
     </div>
@@ -67,7 +67,7 @@
           aria-expanded="false"
         >
           <i class="fas fa-bell"></i>
-          <span class="badge rounded-pill badge-notification bg-danger">1</span>
+          <span class="badge rounded-pill badge-notification bg-danger">3</span>
         </a>
         <ul
           class="dropdown-menu dropdown-menu-end"
@@ -95,7 +95,7 @@
           aria-expanded="false"
         >
           <img
-            src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+          src="/src/assets/barber.png"
             class="rounded-circle"
             height="25"
             alt="Black and White Portrait of a Man"
@@ -127,7 +127,7 @@
 
 <style scoped>
   nav{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   /* background-color: #363636; */
   /* padding: 20px; */
