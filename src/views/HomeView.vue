@@ -11,13 +11,6 @@
       <RouterLink class="mx-auto m-3 mt-5" to="/servicos"> <button id="bt-land" type="button" class="btn btn-warning btn-rounded p-3">Cortar cabelo</button></RouterLink>
 </div>
 
-<div>Selected: {{ selected }}</div>
 
-<select v-model="selected">
-  <option disabled value="">Please select one</option>
-  <option>A</option>
-  <option>B</option>
-  <option>C</option>
-</select>
 
 </template>

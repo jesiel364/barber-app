@@ -45,6 +45,15 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/LoginView.vue')
     }
+    ,
+    {
+      path: '/cadastro-de-servicos',
+      name: 'cadastroServicos',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/CadastroServicosView.vue')
+    }
   ]
 })
 

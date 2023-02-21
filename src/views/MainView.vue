@@ -1,6 +1,5 @@
 <script setup>
 import Search from '../components/Search.vue'
-import Perfil from '../components/Perfil.vue'
 
 var servicos = [{
   nome: 'Corte Degradê',
@@ -24,9 +23,9 @@ let user_name= 'Jesiel'
 </script>
 
 <template>
-  <div id='main' class='container'>
+  <div id='main' class='card bg-dark text-light p-2 mx-auto'>
     
-    <div class='p-2'></div>
+    <div class=''>
     <Search />
     <div id='perfil' class="mx-auto m-4">
       <a href='#'><div id='user-img'>
@@ -46,7 +45,7 @@ let user_name= 'Jesiel'
       <div class=' ' id='category'>
       
         <div class='item' v-for="item in servicos" :key="item.nome">
-        <a href='#'><img  class='img-category' :src='item.pic'></a>
+        <a href='#'><img  class='img-category img-fluid' :src='item.pic'></a>
         <p class=''>{{ item.nome }}</p>
       </div>
         
@@ -61,8 +60,21 @@ let user_name= 'Jesiel'
       <RouterLink  to="/agendar"> <button  type="button" class="btn btn-primary btn-rounded p-3">Fazer agendamento</button></RouterLink>
     </div>
 
-
+  </div>
 
 <div class='p-3'></div></div>
 </template>
 
+<style scoped>
+  #main{
+    max-width: 400px;
+  }
+
+  .img-category{
+  border-radius: 50%;
+  width: 122px;
+  height: 122px;
+  display: flex;
+}
+
+</style>

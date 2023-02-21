@@ -61,7 +61,7 @@ a:hover{
 
 }
 
-#perfil, hr, #search-div, #label, #cat-container, #bt-agendar, #datepicker{
+hr, #label, #cat-container, #bt-agendar, #datepicker{
   max-width: 400px;
   /* background-color: blueviolet; */
 }
@@ -118,12 +118,7 @@ hr{
   justify-content: space-evenly;
 }
 
-.img-category{
-  border-radius: 50%;
-  width: 112px;
-  height: 112px;
-  display: flex;
-}
+
 
 .item{
   /* background-color: aquamarine; */
